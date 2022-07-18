@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T03:31:14.831Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="2gmzztghYMfJUM5HjsGy" version="15.3.5" type="github">
-  <diagram id="NHr7hy8oYZLyfrdywyJ4" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-07-18T06:12:23.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WloVb5oYUhLU470Ku0Do" version="15.3.5" type="github" pages="2">
+  <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="2502" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -150,6 +150,14 @@
         <mxCell id="99yJOng58pOBfRwRh80y-4" value="查找接口MOCK配置" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-140" y="203" width="160" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DOP5gKLDgoZVGasEc1-f" name="MOCK数据管理UML">
+    <mxGraphModel dx="1424" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="xjnj7pERIHIBvzZNgUXc-0" />
+        <mxCell id="xjnj7pERIHIBvzZNgUXc-1" parent="xjnj7pERIHIBvzZNgUXc-0" />
       </root>
     </mxGraphModel>
   </diagram>
