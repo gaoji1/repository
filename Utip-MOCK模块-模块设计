@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T07:27:43.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="k3toafnM8_pRrN4QeE-I" version="15.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-18T07:30:32.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lqJymSkAb3OfJLlbX1Fb" version="15.3.5" type="github" pages="3">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="3329" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,6 +150,9 @@
         <mxCell id="99yJOng58pOBfRwRh80y-30" value="MOCK启停" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="150" y="640" width="120" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="t6hJ4He39BPGcJ8ceRZL-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;startArrow=none;startFill=0;endArrow=none;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-47" target="t6hJ4He39BPGcJ8ceRZL-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-47" value="MOCK策略执行" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="130" y="320" width="140" height="20" as="geometry" />
         </mxCell>
@@ -206,6 +209,9 @@
         </mxCell>
         <mxCell id="t6hJ4He39BPGcJ8ceRZL-21" value="不确定点：对于每种类型的接口，使用何种技术进行拦截？" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;pointerEvents=0;fontSize=15;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="-760" y="-90" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t6hJ4He39BPGcJ8ceRZL-23" value="不确定的点：MOCK的具体详细流程是什么？（是否涉及FASS？如果涉及，那在何时引入了FASS？未来如果有更适合的技术出现，是否会弃用FASS采用更适合的技术？）" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;pointerEvents=0;fontSize=15;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="380" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
