@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T02:50:19.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="4Oi0UGJbdDmn45HxDJ7N" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T02:51:26.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="TpiO70vyX7RXcdpEcQXU" version="15.3.5" type="github">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="Page-1">
     <mxGraphModel dx="1426" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,6 +18,18 @@
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-5" value="MOCK接口的能力" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="560" y="130" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="99yJOng58pOBfRwRh80y-6" value="出参MOCK" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="30" y="203" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="99yJOng58pOBfRwRh80y-7" value="入参MOCK" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="210" y="203" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="99yJOng58pOBfRwRh80y-8" value="数据MOCK" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="390" y="203" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="99yJOng58pOBfRwRh80y-9" value="MOCK日志打印" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="570" y="203" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
