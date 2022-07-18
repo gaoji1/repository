@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T07:24:36.078Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0GEUjc5kHtXKJZTaYF4N" version="15.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-18T07:25:51.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="75fXNjyq00zqcOXFEwrv" version="15.3.5" type="github" pages="3">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="3329" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,53 +62,53 @@
           <mxGeometry x="220" y="203" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-8" value="数据维度做MOCK的能力" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="540" y="130" width="140" height="20" as="geometry" />
+          <mxGeometry x="560" y="130" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-9" value="MOCK日志打印" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="570" y="203" width="140" height="20" as="geometry" />
+          <mxGeometry x="400" y="203" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-14" value="MOCK数据管理" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="320" width="140" height="20" as="geometry" />
+          <mxGeometry x="-40" y="320" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-23" value="MOCK管理域" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontStyle=1;fontSize=15;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="530" width="880" height="360" as="geometry" />
+          <mxGeometry x="-460" y="450" width="880" height="360" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-24" value="为接口配置MOCK的能力" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="570" width="150" height="20" as="geometry" />
+          <mxGeometry x="-440" y="490" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;endArrow=oval;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-25" target="99yJOng58pOBfRwRh80y-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="620" />
-              <mxPoint x="510" y="620" />
+              <mxPoint x="-170" y="540" />
+              <mxPoint x="210" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;endArrow=oval;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-25" target="99yJOng58pOBfRwRh80y-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="710" as="targetPoint" />
+            <mxPoint x="70" y="630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130" y="620" />
-              <mxPoint x="366" y="620" />
+              <mxPoint x="-170" y="540" />
+              <mxPoint x="66" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;endArrow=oval;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=none;startFill=0;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-25" target="99yJOng58pOBfRwRh80y-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="130" y="620" />
-              <mxPoint x="223" y="620" />
+              <mxPoint x="-170" y="540" />
+              <mxPoint x="-77" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-25" value="控制MOCK生命周期的能力" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="50" y="570" width="160" height="20" as="geometry" />
+          <mxGeometry x="-250" y="490" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=oval;startFill=0;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-26" target="99yJOng58pOBfRwRh80y-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-26" value="MOCK权限管理" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="163" y="720" width="120" height="20" as="geometry" />
+          <mxGeometry x="-137" y="640" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=oval;startFill=0;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-27" target="99yJOng58pOBfRwRh80y-24">
           <mxGeometry relative="1" as="geometry" />
@@ -130,31 +130,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-27" value="MOCK冲突检测" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="720" width="120" height="20" as="geometry" />
+          <mxGeometry x="-425" y="640" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=oval;startFill=0;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-28" target="99yJOng58pOBfRwRh80y-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-28" value="MOCK策略" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="19" y="720" width="120" height="20" as="geometry" />
+          <mxGeometry x="-281" y="640" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=10;endArrow=none;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;startArrow=oval;startFill=0;" edge="1" parent="1" source="99yJOng58pOBfRwRh80y-29" target="99yJOng58pOBfRwRh80y-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-29" value="MOCK数据管理" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="306" y="720" width="120" height="20" as="geometry" />
+          <mxGeometry x="6" y="640" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-30" value="MOCK启停" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="450" y="720" width="120" height="20" as="geometry" />
+          <mxGeometry x="150" y="640" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-47" value="MOCK策略执行" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="250" y="320" width="140" height="20" as="geometry" />
+          <mxGeometry x="130" y="320" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-55" value="二方作用域查询能力" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="830" width="120" height="20" as="geometry" />
+          <mxGeometry x="-425" y="750" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-57" value="二方作用域查询能力" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="320" width="140" height="20" as="geometry" />
+          <mxGeometry x="-220" y="320" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="99yJOng58pOBfRwRh80y-4" value="查找接口MOCK配置" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=10;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-140" y="203" width="160" height="20" as="geometry" />
