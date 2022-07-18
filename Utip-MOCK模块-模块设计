@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T07:32:17.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="StuXslSNDSocYMmUYL8L" version="15.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-18T07:34:56.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="FQDhfc8wmKlDyEw0E6Ip" version="15.3.5" type="github" pages="3">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="3329" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,6 +218,12 @@
         </mxCell>
         <mxCell id="t6hJ4He39BPGcJ8ceRZL-25" value="不确定的点：基于何种技术构建一整套经过数据MOCK的环境？" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;pointerEvents=0;fontSize=15;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="790" y="220" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t6hJ4He39BPGcJ8ceRZL-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=15;startArrow=none;startFill=0;endArrow=none;endFill=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="t6hJ4He39BPGcJ8ceRZL-27" target="99yJOng58pOBfRwRh80y-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t6hJ4He39BPGcJ8ceRZL-27" value="不确定的点：冲突检测的策略不是一个确定的策略。未来如果有了更合适的策略，是否需要快速地代价替换？ 是否需要多种策略并用，为用户提供基于多种策略的冲突检测结果？" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;hachureGap=4;pointerEvents=0;fontSize=15;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-1020" y="730" width="340" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
