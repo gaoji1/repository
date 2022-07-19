@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T02:45:13.596Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="CTXyTZPYUVe3ibt2o_UA" version="15.3.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-19T02:46:16.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="KFAQn4_KcteIanI0py6T" version="15.3.5" type="github" pages="4">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="3080" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -255,16 +255,16 @@
           <mxGeometry x="80" y="440" width="930" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-11" value="MockConflictServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-1">
-          <mxGeometry x="80" y="650" width="930" height="150" as="geometry" />
+          <mxGeometry x="80" y="650" width="930" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="VrwVFFYgU4dxWNCYPS_2-12" value="- conflictDetectStrategy: ConflictDetectStrategy&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-11">
-          <mxGeometry y="26" width="930" height="34" as="geometry" />
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-12" value="- conflictDetectStrategy: ConflictDetectStrategy&#xa;- conflictDetectStrategyList: List&lt;ConflictDetectStrategy&gt;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-11">
+          <mxGeometry y="26" width="930" height="44" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-11">
-          <mxGeometry y="60" width="930" height="8" as="geometry" />
+          <mxGeometry y="70" width="930" height="8" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-14" value="+ detectMockConflict(UtipInterfaceDO, UtipScopeDO): List&lt;Triplet&lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&gt;&gt; &#xa;+ detectMockConflictBatch(UtipInterfaceDO, List&lt;UtipScopeDO&gt;): Map&lt;String,List&lt;Triplet&lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&gt;&gt;&gt;&#xa;+ detectMockConflictMultiStrategy(UtipInterfaceDO, UtipScopeDO): Map&lt;String,List&lt;Triplet&lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&gt;&gt;&gt;&#xa;+ detectMockConflictMultiStrategyBatch(UtipInterfaceDO, UtipScopeDO): Map&lt;String,Map&lt;String,List&lt;Triplet&lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&gt;&gt;&gt;&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-11">
-          <mxGeometry y="68" width="930" height="82" as="geometry" />
+          <mxGeometry y="78" width="930" height="82" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-15" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VrwVFFYgU4dxWNCYPS_2-1" source="VrwVFFYgU4dxWNCYPS_2-3" target="VrwVFFYgU4dxWNCYPS_2-10">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
