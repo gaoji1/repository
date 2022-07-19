@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T02:52:23.144Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="9xhuXnYPmAl-VkB1T4Id" version="15.3.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-19T02:53:36.487Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="_jQKFAyJnxTJc2sTduAN" version="15.3.5" type="github" pages="4">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="3080" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,19 +289,43 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-20" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ConflictDetectStrategy&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ doDetectConflict(UtipInterfaceDO, UtipScopeDO): List&amp;lt;Triplet&amp;lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-1">
-          <mxGeometry x="1090" y="440" width="650" height="70" as="geometry" />
+          <mxGeometry x="1410" y="650" width="650" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-21" value="DefaultConflictDetectStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-1">
-          <mxGeometry x="1090" y="585" width="930" height="100" as="geometry" />
+          <mxGeometry x="1100" y="795" width="650" height="100" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-22" value="- someField: SomeType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-21">
-          <mxGeometry y="26" width="930" height="34" as="geometry" />
+          <mxGeometry y="26" width="650" height="34" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-21">
-          <mxGeometry y="60" width="930" height="8" as="geometry" />
+          <mxGeometry y="60" width="650" height="8" as="geometry" />
         </mxCell>
         <mxCell id="VrwVFFYgU4dxWNCYPS_2-24" value="+ doDetectConflict(UtipInterfaceDO, UtipScopeDO): List&lt;Triplet&lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&gt;&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-21">
-          <mxGeometry y="68" width="930" height="32" as="geometry" />
+          <mxGeometry y="68" width="650" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-25" value="XxxtConflictDetectStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-1">
+          <mxGeometry x="1760" y="795" width="650" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-26" value="- someField: SomeType&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-25">
+          <mxGeometry y="26" width="650" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-25">
+          <mxGeometry y="60" width="650" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-28" value="+ doDetectConflict(UtipInterfaceDO, UtipScopeDO): List&lt;Triplet&lt;UtipInterfaceDO, UtipMockConfigDO, UtipScopeDO&gt;&gt; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VrwVFFYgU4dxWNCYPS_2-25">
+          <mxGeometry y="68" width="650" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-29" value="实现" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="VrwVFFYgU4dxWNCYPS_2-1" source="VrwVFFYgU4dxWNCYPS_2-21" target="VrwVFFYgU4dxWNCYPS_2-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1100" y="730" as="sourcePoint" />
+            <mxPoint x="1100" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-30" value="实现" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="VrwVFFYgU4dxWNCYPS_2-1" source="VrwVFFYgU4dxWNCYPS_2-25" target="VrwVFFYgU4dxWNCYPS_2-20">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1435" y="805" as="sourcePoint" />
+            <mxPoint x="1745" y="730" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
