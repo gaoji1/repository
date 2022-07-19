@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T03:02:31.553Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="1fxWpm9L4hHZc78A22MS" version="15.3.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-07-19T03:04:02.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="WojunWR-5F-saeY6NKSm" version="15.3.5" type="github" pages="4">
   <diagram id="NHr7hy8oYZLyfrdywyJ4" name="MOCK模块结构">
     <mxGraphModel dx="3080" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,6 +364,18 @@
               <mxPoint x="70" y="840" />
               <mxPoint x="545" y="840" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-38" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.501;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="VrwVFFYgU4dxWNCYPS_2-1" source="VrwVFFYgU4dxWNCYPS_2-34" target="VrwVFFYgU4dxWNCYPS_2-24">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="940" y="880" as="sourcePoint" />
+            <mxPoint x="1410" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VrwVFFYgU4dxWNCYPS_2-39" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=1.049;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.484;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="VrwVFFYgU4dxWNCYPS_2-1" source="VrwVFFYgU4dxWNCYPS_2-34" target="VrwVFFYgU4dxWNCYPS_2-28">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1020" y="958" as="sourcePoint" />
+            <mxPoint x="2083" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
